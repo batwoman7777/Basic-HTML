@@ -1,0 +1,116 @@
+h1{
+    text-transform: capitalize;
+    text-shadow: 3px 2px 5px rgba(172,49,206,0.88);
+    border: rgb(230, 177, 80);
+    background-color: rgb(230, 177, 80);
+    font-family: 'The Nautigal', cursive;
+}
+
+body {
+    margin: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a{
+    border: cadetblue 2px solid;
+    display: inline-block;
+    padding: 25px;
+    font-size: large;
+    font-style: italic;
+    font-weight: 500;
+    background-color: chocolate;
+    color:cornsilk;
+    text-decoration: unset;
+    margin: auto;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+nav a:hover{
+    background-color: cornsilk;
+    color: chocolate;
+    
+}
+
+.side{
+    text-align: left;
+    margin-left: 70px;
+    padding-left: 100px;
+}
+
+table{
+    margin: auto;
+    table-layout: auto;
+    background-color: thistle;
+    font-family:sans-serif;
+    font-weight: 300;
+    color:maroon;
+    padding: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.tfooter{
+    font-size: 80%;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.general-info{
+    background-color:blanchedalmond;
+    opacity: .8;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0;
+    color: coral;
+    font-family: cursive;
+    font-size: 120%;
+}
+
+form{
+    background-color: rgb(173, 166, 166);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+}
+
+button{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: midnightblue;
+    color: ivory;
+    border: moccasin;
+    width: 100px;
+}
+
+button:hover{
+    background-color:moccasin;
+    color: midnightblue;
+    text-shadow: mintcream;
+}
+
+span{
+    color:navy;
+    text-decoration: navy line-through;
+}
+
+p{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+footer{
+    margin:auto;
+    padding: 20px;
+    color:rgb(99, 4, 4);
+    font-weight: 500;
+    background-color: rgb(133, 170, 172);
+    border: 2px solid rgb(133, 170, 172);
+}
